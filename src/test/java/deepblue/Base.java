@@ -14,7 +14,7 @@ public class Base {
 		this.driver= driver;
 	}
 	public WebDriver chromeDriverConnection() {
-		System.setProperty("webdriver.chrome.driver", "./src/test/resources/chrome/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./src/test/resources/driver/chromedriver.exe");
 				driver = new ChromeDriver();
 				driver.manage().window().maximize();
 				return driver;	
