@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class RegisterAlerts extends Base{
 	
-	By pageLocator = By.xpath("//*[@id="comercio"]/div[2]/button");
+	By pageLocator = By.cssSelector("#comercio > div.col-3 > button");
 	
 	public RegisterAlerts(WebDriver driver) {
 		super(driver);
