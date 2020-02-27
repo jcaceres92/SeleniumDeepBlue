@@ -16,7 +16,7 @@ public class AlertsTest {
 	public void setUp() throws Exception {
 		registerAlerts= new RegisterAlerts(driver);
 		driver= registerAlerts.chromeDriverConnection();
-		registerAlerts.page("http://localhost:4200/login");
+		registerAlerts.page("http://localhost:4200/");
 	}	
 	@After
 	public void tearDown() throws Exception {
