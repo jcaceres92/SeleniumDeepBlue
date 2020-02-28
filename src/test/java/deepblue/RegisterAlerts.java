@@ -14,9 +14,8 @@ public class RegisterAlerts extends Base{
 	public void pruebaAlerts () throws InterruptedException {
 		
 		if (isDisplayed(pageLocator)) {
-			click(pageLocator);
-			Thread.sleep(2000);
-		
+			
+		 System.out.println("La página sí existe");   
 			}else {
 		   System.out.println("No existe la página");   
     }
